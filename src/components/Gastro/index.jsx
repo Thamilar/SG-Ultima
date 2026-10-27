@@ -14,8 +14,9 @@ import imageUrl from './assets/Citi_ULTIMA-Michelin-Saint.jpg';
 import star from './assets/star.svg';
 //import greenStar from './assets/MICHELIN-Green-Star.png';
 // import hk from './assets/JP.png';
-import korea from './assets/southkorea.png';
+//import korea from './assets/southkorea.png';
 import singapore from './assets/singapore.png';
+import philip from './assets/philip.png';
 //import japan from './assets/Flags-Japan.svg';
 // import thai from './assets/thai.png';
 // import italy from './assets/FlagsItaly.svg';
@@ -68,7 +69,7 @@ function Gastro() {
                 <div className='flex justify-center '>
                   <img src={star} alt='MICHELIN Star' className='float-left ' />
                   <img src={star} alt='MICHELIN Star' className='float-left ' />
-                  <h4 className='text-lg text-gold uppercase leading-10'>2 MICHELIN STAR</h4>
+                  <h4 className='text-lg text-gold uppercase leading-10'>Two MICHELIN STAR</h4>
                 </div>
               </div>
               <img
@@ -102,7 +103,7 @@ function Gastro() {
                 <div className='flex justify-center '>
                   <img src={star} alt='MICHELIN Star' className='float-left ' />
                   {/*<img src={star} alt='MICHELIN Star' className='float-left ' />*/}
-                  <h4 className='text-lg text-gold uppercase leading-10'>2 MICHELIN STAR</h4>
+                  <h4 className='text-lg text-gold uppercase leading-10'>One MICHELIN STAR</h4>
                 </div>
               </div>
               <img
@@ -120,7 +121,7 @@ function Gastro() {
                     </div>                    
                   </div> */}
               <div className="flex items-center justify-center gap-3 mb-6">
-                <img src={korea} alt="MICHELIN & Citi ULTIMA" className="chef-flag object-cover m-0 flex-shrink-0" />
+                <img src={philip} alt="MICHELIN & Citi ULTIMA" className="chef-flag object-cover m-0 flex-shrink-0" />
 
                 <div className="text-left">
                   <h2 className="text-left leading-tight mb-0" dangerouslySetInnerHTML={{ __html: t("gastro.chef2Title") }} />
